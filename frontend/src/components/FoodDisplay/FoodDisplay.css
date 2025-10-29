@@ -1,0 +1,65 @@
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,2fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+.view-all-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.view-all-btn button{
+    padding: 12px 18px;
+    border-radius: 25px;
+    border: none;
+    border: 1px solid tomato;
+    cursor: pointer;
+    background-color: white;
+
+}
+.view-all-btn button:hover{
+    background-color: rgb(247, 111, 87);
+    transform: 0.3;
+   
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;      /* mobile ke liye thoda upar */
+  right: 15px;       /* screen ke edge se thoda andar */
+  background: tomato;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;       /* size thoda bada rakho */
+  height: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;     /* bada rakho taaki sabke upar rahe */
+}
+
+@media (max-width:750px) {
+
+    .food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(149px,3fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+}
+
