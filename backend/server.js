@@ -14,15 +14,7 @@ const port = process.env.PORT || 3000;
 
 // middlewares
 app.use(express.json())
-app.use(
-  cors({
-    origin: [
-      "https://food-delivery-webapp-frontend-f6q8.onrender.com",
-      "https://food-delivery-webapp-admin-633a.onrender.com"
-    ],
-    credentials: true
-  })
-);
+app.use(cors())
 
 // db connection
 connectDB()
