@@ -4,7 +4,7 @@ import order_icon from './order_icon.png'
 import profile_image from './profile_image.png'
 import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
-
+export const url = "https://food-delivery-webapp-backend-g5qe.onrender.com"
 export const assets ={
   
     add_icon,
@@ -14,4 +14,4 @@ export const assets ={
     parcel_icon
 }
 
-export const url = 'https://food-delivery-webapp-backend-g5qe.onrender.com'
+
