@@ -45,7 +45,7 @@ pnpm-debug.log*
 ############################
 # Uploads and generated assets
 ############################
-backend/uploads/
+
 
 ############################
 # IDE/editor
