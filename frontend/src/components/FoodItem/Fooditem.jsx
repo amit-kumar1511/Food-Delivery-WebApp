@@ -17,13 +17,13 @@ const {cartItems,addToCart,removeFromCart,url} = useContext(StoreContext)
 
         <div className="food-item-info">
             <div className="food-item-name-rating">
-                <p>{name}</p>
+                <p className='names'>{name}</p>
                 <img src={assets.rating_starts} alt="" />
             </div>
             <p className="food-item-desc">{description}</p>
             <div className="price-button">
 
-            <p className="food-item-price">₹ {price}</p>
+            <p className="food-item-price">₹ {price}</p>  
             {/* <button>Add To Cart</button> */}
 
             {
