@@ -62,7 +62,11 @@ import parcel_icon from './parcel_icon.png'
 import hungeri_logo from './huneri.png'
 
 export const assets = {
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 410f6b813b6c1e888da811f62dcf939622e0e2ca
     basket_icon,
     header_img,
     search_icon,
