@@ -1,6 +1,6 @@
-# TOMATO - Food Ordering Website 🍅
+# HungriHai - Food Ordering Website 🍅
 
-TOMATO is a **dynamic food ordering website** built with the **MERN Stack**. It provides a user-friendly platform for seamless online food ordering, featuring both user and admin functionalities.
+Hungri.hai is a **dynamic food ordering website** built with the **MERN Stack**. It provides a user-friendly platform for seamless online food ordering, featuring both user and admin functionalities.
 
 ## 🔗 Demo
 
@@ -45,12 +45,12 @@ Perfect! We can take that content and turn it into a polished, GitHub-ready READ
 
 ## 💻 Run Locally
 
-Follow these steps to run TOMATO on your local machine:
+Follow these steps to run HungriHai on your local machine:
 
 ### 1. Clone the project
 
 ```bash
-git clone https://github.com/Mshandev/Food-Delivery
+git clone https://github.com/amitkumar1511/Food-Delivery
 ```
 
 ### 2. Go to the project directory
