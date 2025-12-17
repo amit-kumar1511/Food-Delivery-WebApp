@@ -10,7 +10,7 @@ import Orders from './pages/Orders/Orders'
 
 const App = () => {
 
-  const url = "http://localhost:3000"; 
+  const url = "https://food-delivery-backends-gts9.onrender.com"; 
   return (
     <>
     <div>
