@@ -11,22 +11,18 @@ import { useNavigate, useLocation } from 'react-router-dom';
 
 
 const Footer = () => {
-      const {getTotalCartAmount} = useContext(StoreContext);
+      const {getTotalCartAmount, cartItems} = useContext(StoreContext);
       const navigate  = useNavigate();
         const [hidden, setHidden] = useState(false);
         const location = useLocation();
 
          useEffect(() => {
-    if (location.pathname !== "/cart" && getTotalCartAmount() > 0) {
-     
+    if (location.pathname === "/" && getTotalCartAmount() > 0) {
       setHidden(false);
+    } else {
+      setHidden(true);
     }
-  }, [location]); useEffect(() => {
-    if (location.pathname !== "/cart" && getTotalCartAmount() > 0) {
-      // agar cart page से बाहर आए और items मौजूद हों → button फिर से show
-      setHidden(false);
-    }
-  }, [location]);
+  }, [location, cartItems]);
   return (
     <div className='footer' id='footer'>
         <div className="footer-content">
@@ -60,7 +56,7 @@ const Footer = () => {
 
 
 
-                  <div className={getTotalCartAmount() === 0 ? "" : "fixed-footer-line"}>
+                  <div className={(getTotalCartAmount() === 0 || location.pathname !== "/") ? "" : "fixed-footer-line"}>
       {!hidden && (
         <div className='vtn'
           onClick={() => {
