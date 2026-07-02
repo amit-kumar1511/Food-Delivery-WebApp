@@ -5,7 +5,7 @@ Hungri.hai is a **dynamic food ordering website** built with the **MERN Stack**.
 ## 🔗 Demo
 
 * **User Panel:** https://food-delivery-frontend-fwtb.onrender.com 
-* **Admin Panel:** https://food-delivery-webapps.onrender.com
+* **Admin Panel:** .....
 
 ## 🚀 Features
 
