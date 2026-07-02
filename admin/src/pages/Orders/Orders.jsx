@@ -13,7 +13,7 @@ const Orders = ({url}) => {
   const fetchAllOrders = async () =>{
     const response = await axios.get(url+"/api/order/list"); 
     if (response.data.success) {
-      setorders(response.data.data);
+      setorders(response.data.data.reverse());
       console.log(response.data.data);
     }else{
      
