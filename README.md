@@ -1,4 +1,4 @@
-# HungriHai - Food Ordering Website 🍅
+# Apna Swad - Food Ordering Website 🍅
 
 Hungri.hai is a **dynamic food ordering website** built with the **MERN Stack**. It provides a user-friendly platform for seamless online food ordering, featuring both user and admin functionalities.
 
@@ -88,7 +88,6 @@ Create a `.env` file in the backend folder and add the following:
 
 ```
 JWT_SECRET=YOUR_SECRET_TEXT
-SALT=YOUR_SALT_VALUE
 MONGO_URL=YOUR_DATABASE_URL
 STRIPE_SECRET_KEY=YOUR_KEY
 ```
