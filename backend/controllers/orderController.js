@@ -7,7 +7,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 // config variables
 const currency = "inr";
 const deliveryCharge = 30;
-const frontend_URL = 'http://localhost:3001';
+const frontend_URL = process.env.FRONTEND_URL || 'http://localhost:3001';
 
 // Placing User Order for Frontend
 // Placing User Order for Frontend
