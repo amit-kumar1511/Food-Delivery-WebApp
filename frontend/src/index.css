@@ -20,6 +20,12 @@ a{
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .app {
+    width: 95%;
+  }
+}
+
 /* afd effect after page reloding */
 @keyframes fadeIn {
   0%{
